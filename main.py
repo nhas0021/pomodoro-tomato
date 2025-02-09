@@ -18,7 +18,7 @@ def reset_timer():
     start_button.after_cancel(timer)
     canvas.itemconfig(canvas_text, text = "00:00")
     tick_text_label.config(text = "")
-    timer_text_label.config(text = "Title", fg = RED)
+    timer_text_label.config(text = "Timer", fg = RED)
     global reps
     reps = 0
 
